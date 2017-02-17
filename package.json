@@ -1,5 +1,5 @@
 {
-  "name": "@later/ember-cli-compass-compiler",
+  "name": "ember-cli-compass-compiler",
   "version": "0.5.0",
   "description": "Ember CLI Compass Compiler",
   "main": "index.js",
