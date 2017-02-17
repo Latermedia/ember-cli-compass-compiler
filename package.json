@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-compass-compiler",
+  "name": "@later/ember-cli-compass-compiler",
   "version": "0.5.0",
   "description": "Ember CLI Compass Compiler",
   "main": "index.js",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/quaertym/ember-cli-compass-compiler.git"
+    "url": "https://github.com/Latermedia/ember-cli-compass-compiler.git"
   },
   "bugs": {
-    "url": "https://github.com/quaertym/ember-cli-compass-compiler/issues"
+    "url": "https://github.com/Latermedia/ember-cli-compass-compiler/issues"
   },
   "author": "Emre Unal",
   "contributors": [
@@ -32,11 +32,13 @@
   "license": "MIT",
   "readmeFile": "README.md",
   "dependencies": {
-    "broccoli-compass-compiler": "0.0.6",
+    "broccoli-caching-writer": "2.2.1",
     "broccoli-funnel": "1.0.1",
     "broccoli-merge-trees": "1.1.1",
     "ember-cli-version-checker": "^1.1.4",
     "glob": "^6.0.4",
-    "merge": "^1.2.0"
+    "merge": "^1.2.0",
+    "dargs": "^4.0.1",
+    "rsvp": "^3.1.0"
   }
 }

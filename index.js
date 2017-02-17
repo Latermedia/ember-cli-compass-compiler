@@ -1,6 +1,6 @@
 var path = require('path');
 var merge = require('merge');
-var compileCompass = require('broccoli-compass-compiler');
+var compileCompass = require('lib/compiler');
 var checker = require('ember-cli-version-checker');
 var mergeTrees = require('broccoli-merge-trees');
 var Funnel = require('broccoli-funnel');
